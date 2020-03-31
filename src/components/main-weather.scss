@@ -1,0 +1,59 @@
+.main-weather-wrapper {
+  padding: 32px;
+  width: 100%;
+  max-width: 816px;
+  margin: 0 auto;
+  background-color: var(--clr-gray);
+}
+
+.main-header {
+  color: var(--clr-primary);
+  font-size: var(--fs-md);
+  font-weight: var(--fw-normal);
+}
+
+.weather {
+  display: flex;
+  padding: 8px 0;
+  justify-content: space-between;
+
+  div {
+    padding-bottom: 16px;
+  }
+}
+
+.error {
+  color: var(--clr-primary);
+}
+
+.divider {
+  border-right: 1px solid var(--clr-primary);
+}
+
+.current-date {
+  padding-right: 16px;
+}
+
+.sol {
+  span {
+    font-size: var(--fs-xl);
+  }
+}
+
+.current-weather {
+  padding: 0 16px;
+}
+
+.temp {
+  font-size: var(--fs-xl);
+}
+
+.current-wind {
+  padding: 0 16px;
+}
+
+.season {
+  font-size: var(--fs-md);
+  color: var(--clr-accent);
+  // font-weight: var(--fw-semi);
+}
